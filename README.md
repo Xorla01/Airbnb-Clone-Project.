@@ -1,26 +1,105 @@
 # Airbnb Clone Project
 
-# Overview
-This project is a simplified clone of **Airbnb**, built to practice modern web development concepts.  
-The main goals of the project are:
-- To replicate core features of Airbnb such as property listings, search, and booking flow.  
-- To gain hands-on experience with front-end development, state management, and data persistence.  
-- To strengthen skills in JavaScript, DOM manipulation, and API integration.  
-- To build a responsive, user-friendly interface with real-world design patterns.  
+## Overview
+This project is a simplified **Airbnb clone** built to practice modern web development.  
 
-# Tech Stack
-- **HTML5** – Application structure and layout  
-- **CSS3** – Styling, responsive design, and themes  
-- **JavaScript (ES6+)** – Core logic, DOM manipulation, events, and data handling  
+### Goals
+- Replicate core features: property listings, search, booking flow.  
+- Gain experience with frontend development and data persistence.  
+- Strengthen JavaScript skills (DOM manipulation, API integration).  
+- Build a responsive, user-friendly interface.  
 
-# Features
-- Browse and view property listings  
-- Search and filter properties by criteria  
-- User authentication (login/logout)  
-- Save and recall user preferences using `localStorage`  
-- Responsive design for desktop and mobile  
+## Tech Stack
+- **HTML5** – Structure  
+- **CSS3** – Styling & responsive design  
+- **JavaScript (ES6+)** – Logic, DOM, data handling  
 
-# Getting Started
-1. Clone the repository  
+## Features
+- Browse property listings  
+- Search & filter by criteria  
+- User login/logout  
+- Save preferences with `localStorage`  
+- Responsive for desktop & mobile  
+
+---
+
+## UI/UX Design Planning
+
+### Design Goals
+- Clean, intuitive interface  
+- Responsive across devices  
+- Familiar Airbnb-like experience  
+- Accessible with clear navigation  
+- Streamlined booking flow  
+
+### Key Features
+- **Search & Filter** – Find by location, price, availability  
+- **Property Grid** – Scrollable view with images & details  
+- **Detailed Page** – Full info, images, amenities, booking  
+- **Checkout** – Simple form for booking confirmation  
+- **Persistent Preferences** – Dark mode, saved listings  
+- **Responsive Navigation** – Sticky header & smooth browsing  
+
+### Primary Pages
+| Page                   | Description                                      | Key Elements |
+|-------------------------|--------------------------------------------------|--------------|
+| **Property Listings**   | Grid of properties with images, price & location | Cards, search/filter |
+| **Listing Details**     | Full info on a selected property                 | Images, description, amenities, Book button |
+| **Checkout**            | Streamlined booking confirmation                 | Summary, dates, guest form, payment mockup |
+
+### Color Styles
+- **Primary:** `#FF5A5F`  
+- **Secondary:** `#008489`  
+- **Background:** `#FFFFFF`  
+- **Text:** `#222222`  
+- **Secondary Text:** `#717171`  
+
+### Typography
+- **Primary:** Circular, Medium (500), 16px  
+- **Headings:** Circular, Bold (700), 24px–32px  
+- **Secondary:** Circular, Book (400), 14px  
+
+### Importance of Defining Design Properties
+- Creates consistency across pages  
+- Establishes branding & identity  
+- Reduces ambiguity in development  
+- Speeds collaboration between teams  
+- Ensures readability & accessibility  
+- Supports scalability as features grow  
+
+---
+
+## Project Roles and Responsibilities
+
+| **Role**              | **Responsibilities** |
+|------------------------|-----------------------|
+| **Project Manager**    | Oversees timeline, coordinates team, manages deliverables |
+| **Frontend Developers**| Implement UI, ensure responsive design |
+| **Backend Developers** | Build APIs, manage database, handle logic |
+| **Designers**          | Create mockups, maintain design system, ensure UX |
+| **QA/Testers**         | Write tests, perform QA, report bugs |
+| **DevOps Engineers**   | Manage deployment, CI/CD, server setup |
+| **Product Owner**      | Define requirements, prioritize features |
+| **Scrum Master**       | Facilitate agile processes, remove blockers |
+
+---
+
+## UI Component Patterns
+
+### Planned Components
+- **Navbar** – Global navigation with logo, search, and login/profile links.  
+- **Property Card** – Reusable component showing property image, title, location, price, rating.  
+- **Footer** – Site-wide footer with links (About, Contact, Help, social media).  
+
+### Importance of Component Patterns
+- **Reusability** – Shared across pages  
+- **Consistency** – Unified design language  
+- **Scalability** – Easier to extend features  
+- **Maintainability** – Simplified debugging & updates  
+
+---
+
+## Getting Started
+1. Clone the repository:  
    ```bash
    git clone https://github.com/Xorla01/airbnb-clone-project.git
