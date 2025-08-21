@@ -10,9 +10,9 @@ This project is a simplified **Airbnb clone** built to practice modern web devel
 - Build a responsive, user-friendly interface.  
 
 ## Tech Stack
-- **HTML5** – Structure  
-- **CSS3** – Styling & responsive design  
-- **JavaScript (ES6+)** – Logic, DOM, data handling  
+- **Frontend**: HTML, CSS, JavaScript (React or similar framework)
+- **Version Control**: Git and GitHub
+- **Design Tools**: Figma for UI/UX design  
 
 ## Features
 - Browse property listings  
