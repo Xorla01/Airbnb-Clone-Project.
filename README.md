@@ -1,4 +1,4 @@
-# Airbnb Clone Project
+# Airbnb-Clone-Project
 
 ## Overview
 This project is a simplified **Airbnb clone** built to practice modern web development.  
